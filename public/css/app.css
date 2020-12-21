@@ -16370,5 +16370,118 @@ header .badge {
 }
 
 .sectTwo .cTesti .managerContainer {
+  margin: 80px 0;
   width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sectTwo .cTesti .managerContainer .managerL {
+  width: 42%;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.sectTwo .cTesti .managerContainer .managerL img {
+  border: 5px #dadada solid;
+  border-radius: 50%;
+  height: 180px;
+  margin-right: 30px;
+}
+
+.sectTwo .cTesti .managerContainer .managerL div {
+  border: 1px #dadada solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sectTwo .cTesti .managerContainer .managerL div h5 {
+  color: #C42D40;
+}
+
+.sectTwo .cTesti .managerContainer .managerR {
+  width: 42%;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.sectTwo .cTesti .managerContainer .managerR img {
+  order: 2;
+  border: 5px #dadada solid;
+  border-radius: 50%;
+  height: 180px;
+  margin-left: 30px;
+}
+
+.sectTwo .cTesti .managerContainer .managerR div {
+  border: 1px #dadada solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sectTwo .cTesti .managerContainer .managerR div h5 {
+  color: #C42D40;
+}
+
+.sectTwo .ourContact {
+  background-image: url("../img/main_bg.jpg");
+}
+
+.sectTwo .ourContact .pageTopTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courgette';
+  font-size: 45px;
+  padding-top: 75px;
+}
+
+.sectTwo .ourContact .pageTopTitle .redTxt {
+  font-size: 62px;
+  color: #C42D40;
+}
+
+.sectTwo .ourContact .deco {
+  display: flex;
+  justify-content: center;
+  margin-top: -23px;
+}
+
+.sectTwo .ourContact .contactContainer {
+  display: flex;
+  justify-content: center;
+  margin: 75px 0;
+}
+
+.sectTwo .ourContact .contactContainer .contactInfo {
+  width: 25%;
+  background-color: #c42d40;
+  padding: 30px 30px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sectTwo .ourContact .contactContainer .contactInfo div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.sectTwo .ourContact .contactContainer .contactInfo div:nth-of-type(2) {
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  padding: 20px 0;
+}
+
+.sectTwo .ourContact .contactContainer .contactInfo div span {
+  margin-top: 10px;
+}
+
+.sectTwo .ourContact .contactContainer .contactInfo div i {
+  font-size: 50px;
 }
