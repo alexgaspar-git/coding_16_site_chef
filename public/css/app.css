@@ -16452,7 +16452,7 @@ header .badge {
 .sectTwo .ourContact .contactContainer {
   display: flex;
   justify-content: center;
-  margin: 75px 0;
+  padding: 75px 0;
 }
 
 .sectTwo .ourContact .contactContainer .contactInfo {
@@ -16486,11 +16486,50 @@ header .badge {
   font-size: 50px;
 }
 
-footer .trioContainer {
+footer .trioContainerBg {
   background-image: url("../img/ftr-bg.jpg");
-  width: 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
 }
 
-footer .trioContainer .trio {
+footer .trioContainerBg .trioContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .trioContainerBg .trioContainer .trio {
   width: 30%;
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+footer .trioContainerBg .trioContainer .trio h3 {
+  margin-bottom: 20px;
+}
+
+footer .trioContainerBg .trioContainer .trio a {
+  color: white;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+footer .trioContainerBg .trioContainer .trio .insta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .trioContainerBg .trioContainer .trio .insta img {
+  margin: 8px;
+}
+
+footer .trioContainerBg .trioContainer .trio .insta .badge {
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px white solid;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin: 5px;
 }
