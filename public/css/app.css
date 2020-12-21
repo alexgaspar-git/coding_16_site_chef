@@ -16185,3 +16185,190 @@ header .badge {
 .sectOne .meet .jeff div img {
   border-bottom: 1px #dadada solid;
 }
+
+.sectTwo .pageTwoExt {
+  background-image: url("../img/main_bg.jpg");
+  padding: 50px 200px;
+}
+
+.sectTwo .pageTwoExt .pageTwo {
+  background-color: white;
+  border: 1px solid #dadada;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectTwo .pageTwoExt .pageTwo .badge {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 20px 40px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .pageTop {
+  width: 100%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .pageTop .pageTopTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courgette';
+  font-size: 45px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .pageTop .pageTopTitle .redTxt {
+  font-size: 62px;
+  color: #C42D40;
+}
+
+.sectTwo .pageTwoExt .pageTwo .deco {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm {
+  margin: 70px 0;
+  background-image: url("../img/book_table_bg.jpg");
+  border-radius: 20px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm span {
+  font-family: 'Ubuntu';
+  margin: 40px 0;
+  color: white;
+  font-size: 22px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm span .nr {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm .resInput {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm .resInput input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm .resInput select {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .resForm .badge {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 20px 40px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .ourBlog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courgette';
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.sectTwo .pageTwoExt .pageTwo .ourBlog .redTxt {
+  font-size: 62px;
+  color: #C42D40;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog {
+  margin-top: 50px;
+  width: 35%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog .imgDate {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 6px #dadada solid;
+  border-radius: 20px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog .imgDate .dateSpan {
+  position: absolute;
+  background-color: #C42D40;
+  color: white;
+  padding: 15px 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  left: 11%;
+  bottom: -10%;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog .imgDate .dateSpan .nmr {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog .blogBtmTxt {
+  padding: 30px;
+}
+
+.sectTwo .pageTwoExt .pageTwo .blogContainer .leBlog .blogBtmTxt h4 {
+  margin-top: 20px;
+}
+
+.sectTwo .pageTwoExt .pageBottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sectTwo .pageTwoExt .pageBottom div {
+  margin-top: 50px;
+}
+
+.sectTwo .cTesti {
+  background-image: url("../img/testimonials_background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectTwo .cTesti .meetTxt {
+  margin-top: 80px;
+  font-family: 'Courgette';
+  font-size: 45px;
+  color: white;
+}
+
+.sectTwo .cTesti .meetTxt .redTxt {
+  font-size: 62px;
+  color: #C42D40;
+}
+
+.sectTwo .cTesti .decoLine {
+  margin-top: -15px;
+}
+
+.sectTwo .cTesti .managerContainer {
+  width: 80%;
+}
