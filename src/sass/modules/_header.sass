@@ -1,14 +1,17 @@
 header
-    background-color: black
-    background-attachment: fixed
     text-align: center
     height: 85vh
+    position: relative
+    overflow: hidden
     nav
         padding-top: 30px
         display: flex
         align-items: flex-end
         justify-content: space-evenly
         font-family: 'Ubuntu'  
+        position: absolute
+        z-index: 10
+        width: 100%
         .navG
             border-top: white solid 1px
             border-bottom: white solid 1px
@@ -29,6 +32,17 @@ header
                 text-decoration: none
                 &:hover
                     background-color: #C42D40
+    .carousel
+        position: absolute
+        height: 100%
+        .carousel-inner
+            img
+                filter: brightness(30%)
+        .carousel-indicators
+                li
+                    border-radius: 50%
+                    height: 15px
+                    width: 15px
     .baral
         display: flex
         flex-direction: column
@@ -36,6 +50,10 @@ header
         color: white
         font-family: 'Courgette'
         text-align: center
+        position: absolute
+        z-index: 99
+        top: 15%
+        left: 33%
         span
             font-size: 42px
             margin: -10px 0
@@ -44,8 +62,16 @@ header
         .redTxt
             font-size: 75px
             color: #C42D40
-    .badge
-        padding: 15px 30px
-        font-size: 14px
-        font-weight: normal
-        margin: 0 15px
+    .badges
+        position: absolute
+        bottom: 20%
+        left: 39%
+        .badge
+            padding: 15px 30px
+            font-size: 14px
+            font-weight: normal
+            margin: 0 15px
+    .dents
+        position: absolute
+        bottom: 0%
+        display: flex
