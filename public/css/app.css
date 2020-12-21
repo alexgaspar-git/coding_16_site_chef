@@ -16485,3 +16485,12 @@ header .badge {
 .sectTwo .ourContact .contactContainer .contactInfo div i {
   font-size: 50px;
 }
+
+footer .trioContainer {
+  background-image: url("../img/ftr-bg.jpg");
+  width: 100%;
+}
+
+footer .trioContainer .trio {
+  width: 30%;
+}
