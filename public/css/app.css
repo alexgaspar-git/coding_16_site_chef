@@ -16019,17 +16019,17 @@ header .badge {
   margin: 0 15px;
 }
 
-.pageOneExt {
+.sectOne .pageOneExt {
   background-image: url("../img/main_bg.jpg");
   padding: 50px 200px;
 }
 
-.pageOneExt .pageOne {
+.sectOne .pageOneExt .pageOne {
   background-color: white;
   border: 1px solid #dadada;
 }
 
-.pageOneExt .pageOne .pageTop {
+.sectOne .pageOneExt .pageOne .pageTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16037,71 +16037,71 @@ header .badge {
   font-size: 45px;
 }
 
-.pageOneExt .pageOne .pageTop .redTxt {
+.sectOne .pageOneExt .pageOne .pageTop .redTxt {
   font-size: 62px;
   color: #C42D40;
 }
 
-.pageOneExt .pageOne .deco {
+.sectOne .pageOneExt .pageOne .deco {
   display: flex;
   justify-content: center;
   margin-top: -30px;
 }
 
-.pageOneExt .pageOne .dissert {
+.sectOne .pageOneExt .pageOne .dissert {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
 
-.pageOneExt .pageOne .dissert p {
+.sectOne .pageOneExt .pageOne .dissert p {
   width: 40%;
   font-family: 'Ubuntu';
 }
 
-.pageOneExt .pageOne .menuLTitle span {
+.sectOne .pageOneExt .pageOne .menuLTitle span {
   font-family: 'Courgette';
   font-size: 45px;
   margin-bottom: 10px;
 }
 
-.pageOneExt .pageOne .menuLTitle span .redTxt {
+.sectOne .pageOneExt .pageOne .menuLTitle span .redTxt {
   font-size: 62px;
   color: #C42D40;
 }
 
-.pageOneExt .pageOne .menuList {
+.sectOne .pageOneExt .pageOne .menuList {
   margin: 0 10px;
 }
 
-.pageOneExt .pageOne .menuList .menuL {
+.sectOne .pageOneExt .pageOne .menuList .menuL {
   font-family: 'Courgette';
   display: flex;
   flex-direction: column;
   width: 20%;
 }
 
-.pageOneExt .pageOne .menuList .menuL .icone {
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone {
   border-bottom: 1px solid #dadada;
   margin-top: 20px;
   font-size: 37px;
   padding: 0 80px;
 }
 
-.pageOneExt .pageOne .menuList .menuL .icone:hover {
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone:hover {
   border-right: 5px #C42D40 solid;
 }
 
-.pageOneExt .pageOne .menuList .menuL .icone:hover i {
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone:hover i {
   color: #C42D40;
 }
 
-.pageOneExt .pageOne .menuList .menuL .icone i {
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone i {
   font-size: 60px;
   color: #dadada;
 }
 
-.pageOneExt .pageOne .menuList .menuR {
+.sectOne .pageOneExt .pageOne .menuList .menuR {
   width: 80%;
   border-left: 1px solid #dadada;
   padding: 20px;
@@ -16110,7 +16110,7 @@ header .badge {
   justify-content: space-between;
 }
 
-.pageOneExt .pageOne .menuList .menuR .menuItem {
+.sectOne .pageOneExt .pageOne .menuList .menuR .menuItem {
   display: flex;
   height: 120px;
   width: 48%;
@@ -16119,39 +16119,69 @@ header .badge {
   border-bottom-style: dotted;
 }
 
-.pageOneExt .pageOne .menuList .menuR .menuItem img {
+.sectOne .pageOneExt .pageOne .menuList .menuR .menuItem img {
   border: 6px solid #dadada;
   border-radius: 50%;
   height: 100px;
 }
 
-.pageOneExt .pageOne .menuList .menuR .menuItem .prix {
+.sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .prix {
   font-size: 20px;
   background-color: #EFEFEF;
   padding: 0 15px;
 }
 
-.pageOneExt .pageOne .menuList .menuR .menuItem .mIM {
+.sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .mIM {
   padding: 40px 20px;
 }
 
-.pageOneExt .pageOne .pageBottom {
+.sectOne .pageOneExt .pageOne .pageBottom {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
-.pageOneExt .pageOne .pageBottom div {
+.sectOne .pageOneExt .pageOne .pageBottom div {
   margin-top: 50px;
 }
 
-.pageOneExt .meet span {
-  font-family: 'Courgette';
-  font-size: 45px;
-  margin-bottom: 10px;
+.sectOne .meet {
+  background-image: url("../img/team_background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.pageOneExt .meet span .redTxt {
+.sectOne .meet .meetTxt {
+  margin-top: 80px;
+  font-family: 'Courgette';
+  font-size: 45px;
+  color: white;
+}
+
+.sectOne .meet .meetTxt .redTxt {
   font-size: 62px;
   color: #C42D40;
+}
+
+.sectOne .meet .decoLine {
+  margin-top: -15px;
+}
+
+.sectOne .meet .jeff {
+  display: flex;
+}
+
+.sectOne .meet .jeff div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: 50px;
+  font-family: 'Courgette';
+}
+
+.sectOne .meet .jeff div img {
+  border-bottom: 1px #dadada solid;
 }
