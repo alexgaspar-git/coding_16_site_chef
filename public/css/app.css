@@ -16016,8 +16016,9 @@ header .baral {
   text-align: center;
   position: absolute;
   z-index: 99;
-  top: 15%;
-  left: 33%;
+  top: 13%;
+  left: 0;
+  right: 0;
 }
 
 header .baral span {
@@ -16037,7 +16038,8 @@ header .baral .redTxt {
 header .badges {
   position: absolute;
   bottom: 20%;
-  left: 39%;
+  left: 0;
+  right: 0;
 }
 
 header .badges .badge {
@@ -16051,6 +16053,45 @@ header .dents {
   position: absolute;
   bottom: 0%;
   display: flex;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    height: 30vh;
+  }
+  header nav {
+    padding-top: 10px;
+  }
+  header nav .navG {
+    display: none;
+  }
+  header nav .navM img {
+    height: 35px;
+  }
+  header nav .navD {
+    display: none;
+  }
+  header .carousel .baral {
+    top: -25%;
+  }
+  header .carousel .baral span {
+    font-size: 18px;
+    margin: -10px 0;
+  }
+  header .carousel .baral .bigTxt {
+    font-size: 30px;
+  }
+  header .carousel .baral .redTxt {
+    font-size: 30px;
+    color: #C42D40;
+  }
+  header .carousel .badges {
+    top: 60%;
+  }
+  header .carousel .badges .badge {
+    font-size: 8px;
+    padding: 7px 15px;
+  }
 }
 
 .sectOne .pageOneExt {
