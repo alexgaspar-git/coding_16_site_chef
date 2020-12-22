@@ -16215,9 +16215,8 @@ header .dents {
 
 .sectOne .pageOneExt .pageOne .menuList .menuL .icone {
   border-bottom: 1px solid #dadada;
-  margin-top: 20px;
   font-size: 37px;
-  padding: 0 80px;
+  padding: 20px 80px 0 80px;
 }
 
 .sectOne .pageOneExt .pageOne .menuList .menuL .icone:hover {
