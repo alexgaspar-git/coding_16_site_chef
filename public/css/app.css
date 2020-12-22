@@ -16898,6 +16898,7 @@ header .dents {
     height: 7px;
   }
   .sectTwo .cTesti .managerContainer {
+    margin: 40px 0 80px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16979,11 +16980,11 @@ header .dents {
     width: 40%;
   }
   .sectTwo .pageTwoExt .pageTwo .ourBlog {
-    font-size: 32px;
+    font-size: 42px;
     margin: 0;
   }
   .sectTwo .pageTwoExt .pageTwo .ourBlog .redTxt {
-    font-size: 40px;
+    font-size: 50px;
   }
   .sectTwo .pageTwoExt .pageTwo .blogContainer {
     flex-direction: column;
@@ -17006,13 +17007,13 @@ header .dents {
     width: 100%;
   }
   .sectTwo .pageTwoExt .pageTwo .pageBottom img {
-    height: 50px;
+    height: 90px;
   }
   .sectTwo .pageTwoExt .pageTwo .pageBottom div {
     margin-top: 0px;
   }
   .sectTwo .pageTwoExt .pageTwo .pageBottom div img {
-    height: 7px;
+    height: 10px;
   }
   .sectTwo .cTesti .meetTxt {
     font-size: 42px;
@@ -17024,6 +17025,7 @@ header .dents {
     height: 10px;
   }
   .sectTwo .cTesti .managerContainer {
+    margin: 40px 0 80px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17133,9 +17135,10 @@ footer .trioContainerBg .dents {
   }
   footer .trioContainerBg .trioContainer .trio p {
     padding: 0 10px;
+    text-align: center;
   }
   footer .trioContainerBg .trioContainer .trio .icones {
-    margin-left: 30px;
+    text-align: center;
   }
   footer .trioContainerBg .trioContainer .trio .insta {
     align-items: center;
