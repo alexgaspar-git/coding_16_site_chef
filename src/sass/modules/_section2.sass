@@ -8,10 +8,6 @@
             display: flex
             flex-direction: column
             align-items: center
-            .badge
-                font-size: 16px
-                font-weight: normal
-                padding: 20px 40px
             .pageTop
                 width: 100%
                 .pageTopTitle
@@ -84,8 +80,8 @@
                         flex-direction: column
                         position: relative
                         img
-                        border: 6px #dadada solid 
-                        border-radius: 20px
+                            border: 6px #dadada solid 
+                            border-radius: 20px
                         .dateSpan
                             position: absolute
                             background-color: #C42D40
@@ -93,7 +89,8 @@
                             padding: 15px 8px
                             border-radius: 10px
                             font-size: 20px
-                            left: 11%
+                            width: 80%
+                            left: 9.5%
                             bottom: -10%
                             .nmr
                                 font-size: 24px
@@ -102,6 +99,10 @@
                         padding: 30px
                         h4
                             margin-top: 20px
+            .badge
+                font-size: 16px
+                font-weight: normal
+                padding: 20px 40px
         .pageBottom
             margin-top: 50px
             display: flex
@@ -204,3 +205,195 @@
                         margin-top: 10px
                     i
                         font-size: 50px
+
+@media screen and (max-width: 375px)
+    .sectTwo
+        .pageTwoExt
+            padding: 20px 0
+            .pageTwo
+                .pageTop
+                    width: 100%
+                    .pageTopTitle
+                        font-size: 32px
+                        .redTxt
+                            font-size: 40px
+                        img
+                            height: 50px
+                .deco
+                    margin-top: -15px
+                    img
+                        height: 7px
+                .resForm
+                    width: 90%
+                    text-align: center
+                    span
+                        font-size: 15px
+                        .nr
+                            font-size: 21px
+                    .resInput
+                        width: 90%
+                        justify-content: space-evenly
+                        input
+                            width: 40%
+                        select
+                            width: 40%
+                .ourBlog
+                    font-size: 32px
+                    margin: 0
+                    .redTxt
+                        font-size: 40px
+                .blogContainer
+                    flex-direction: column
+                    align-items: center
+                    width: 100%
+                    .leBlog
+                        width: 100%
+                        .imgDate
+                            img
+                            .dateSpan
+                                font-size: 14px
+                                .nmr
+                                    font-size: 20px
+                .pageBottom
+                    margin-top: 50px
+                    display: flex
+                    justify-content: space-between
+                    width: 100%
+                    img
+                        height: 50px
+                    div
+                        margin-top: 0px
+                        img
+                            height: 7px
+        .cTesti
+            .meetTxt
+                font-size: 32px
+                .redTxt
+                    font-size: 40px
+            .decoLine
+                height: 7px
+            .managerContainer
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                .managerL
+                    flex-direction: column
+                    width: 100%
+                    img
+                        margin: 0 0 20px 0
+                .managerR
+                    flex-direction: column
+                    width: 100%
+                    img
+                        margin: 40px 0 20px 0
+                    div
+                        order: 2
+        .ourContact
+            .pageTopTitle
+                span
+                    font-size: 32px
+                    .redTxt
+                        font-size: 40px
+            .deco
+                margin-top: -15px
+                img
+                    height: 7px
+            .contactContainer
+                .contactInfo
+                    width: 90%
+
+@media screen and (min-width: 376px) and (max-width: 768px)
+    .sectTwo
+        .pageTwoExt
+            padding: 20px 0
+            .pageTwo
+                .pageTop
+                    width: 100%
+                    .pageTopTitle
+                        font-size: 42px
+                        .redTxt
+                            font-size: 50px
+                        img
+                            height: 90px
+                .deco
+                    margin-top: -15px
+                    img
+                        height: 10px
+                .resForm
+                    width: 90%
+                    text-align: center
+                    span
+                        font-size: 21px
+                        .nr
+                            font-size: 30px
+                    .resInput
+                        width: 90%
+                        justify-content: space-evenly
+                        input
+                            width: 40%
+                        select
+                            width: 40%
+                .ourBlog
+                    font-size: 32px
+                    margin: 0
+                    .redTxt
+                        font-size: 40px
+                .blogContainer
+                    flex-direction: column
+                    align-items: center
+                    width: 70%
+                    .leBlog
+                        width: 100%
+                        .imgDate
+                            img
+                            .dateSpan
+                                font-size: 20px
+                                .nmr
+                                    font-size: 28px
+                .pageBottom
+                    margin-top: 50px
+                    display: flex
+                    justify-content: space-between
+                    width: 100%
+                    img
+                        height: 50px
+                    div
+                        margin-top: 0px
+                        img
+                            height: 7px
+        .cTesti
+            .meetTxt
+                font-size: 42px
+                .redTxt
+                    font-size: 50px
+            .decoLine
+                height: 10px
+            .managerContainer
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                .managerL
+                    flex-direction: column
+                    width: 100%
+                    img
+                        margin: 0 0 20px 0
+                .managerR
+                    flex-direction: column
+                    width: 100%
+                    img
+                        margin: 40px 0 20px 0
+                    div
+                        order: 2
+        .ourContact
+            .pageTopTitle
+                span
+                    font-size: 42px
+                    .redTxt
+                        font-size: 50px
+            .deco
+                margin-top: -14px
+                img
+                    height: 10px
+            .contactContainer
+                .contactInfo
+                    width: 60%
