@@ -16145,6 +16145,12 @@ header .dents {
   color: #C42D40;
 }
 
+.sectOne .pageOneExt .pageOne .decoMenuL {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
 .sectOne .pageOneExt .pageOne .menuList {
   margin: 0 10px;
 }
@@ -16222,6 +16228,7 @@ header .dents {
 
 .sectOne .meet {
   background-image: url("../img/team_background.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16259,6 +16266,98 @@ header .dents {
 
 .sectOne .meet .jeff div img {
   border-bottom: 1px #dadada solid;
+}
+
+@media screen and (max-width: 375px) {
+  .sectOne .pageOneExt {
+    padding: 20px 0;
+  }
+  .sectOne .pageOneExt .pageOne .pageTop img {
+    height: 50px;
+  }
+  .sectOne .pageOneExt .pageOne .pageTop span {
+    font-size: 32px;
+  }
+  .sectOne .pageOneExt .pageOne .pageTop span .redTxt {
+    font-size: 40px;
+  }
+  .sectOne .pageOneExt .pageOne .deco {
+    margin-top: -12px;
+  }
+  .sectOne .pageOneExt .pageOne .deco img {
+    height: 7px;
+  }
+  .sectOne .pageOneExt .pageOne .dissert p {
+    width: 95%;
+  }
+  .sectOne .pageOneExt .pageOne .menuLTitle span {
+    font-size: 32px;
+  }
+  .sectOne .pageOneExt .pageOne .menuLTitle span .redTxt {
+    font-size: 40px;
+  }
+  .sectOne .pageOneExt .pageOne .decoMenuL {
+    margin-top: -17px;
+  }
+  .sectOne .pageOneExt .pageOne .decoMenuL img {
+    height: 8px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuL .icone {
+    padding: 0;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuL .icone span {
+    font-size: 15px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuL .icone i {
+    font-size: 21px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR {
+    padding: 10px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem {
+    width: 100%;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem img {
+    height: 50px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .mIM {
+    padding: 0 0 0 8px;
+    line-height: 50%;
+    height: 80px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .mIM h5 {
+    font-size: 12px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .mIM span {
+    font-size: 10px;
+  }
+  .sectOne .pageOneExt .pageOne .menuList .menuR .menuItem .prix {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+  .sectOne .pageOneExt .pageOne .pageBottom img {
+    height: 50px;
+  }
+  .sectOne .pageOneExt .pageOne .pageBottom div {
+    margin-top: 0;
+  }
+  .sectOne .pageOneExt .pageOne .pageBottom div img {
+    height: 7px;
+  }
+  .sectOne .meet .meetTxt {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  .sectOne .meet .meetTxt .redTxt {
+    font-size: 40px;
+  }
+  .sectOne .meet .decoLine {
+    margin-top: -12px;
+    height: 7px;
+  }
+  .sectOne .meet .jeff {
+    flex-direction: column;
+  }
 }
 
 .sectTwo .pageTwoExt {
