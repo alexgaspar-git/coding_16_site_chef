@@ -16047,14 +16047,14 @@ header .baral .redTxt {
   color: #C42D40;
 }
 
-header .badges {
+header .buttons {
   position: absolute;
   bottom: 20%;
   left: 0;
   right: 0;
 }
 
-header .badges .badge {
+header .buttons button {
   padding: 15px 30px;
   font-size: 14px;
   font-weight: normal;
@@ -16100,10 +16100,10 @@ header .dents {
     font-size: 30px;
     color: #C42D40;
   }
-  header .carousel .badges {
+  header .carousel .buttons {
     top: 60%;
   }
-  header .carousel .badges .badge {
+  header .carousel .buttons button {
     font-size: 8px;
     padding: 7px 15px;
   }
@@ -16151,10 +16151,10 @@ header .dents {
     font-size: 41px;
     color: #C42D40;
   }
-  header .carousel .badges {
+  header .carousel .buttons {
     top: 70%;
   }
-  header .carousel .badges .badge {
+  header .carousel .buttons button {
     font-size: 8px;
     padding: 7px 15px;
   }
@@ -16239,6 +16239,14 @@ header .dents {
 }
 
 .sectOne .pageOneExt .pageOne .menuList .menuL .icone:hover i {
+  color: #C42D40;
+}
+
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone:active {
+  border-right: 5px #C42D40 solid;
+}
+
+.sectOne .pageOneExt .pageOne .menuList .menuL .icone:active i {
   color: #C42D40;
 }
 
@@ -16600,10 +16608,11 @@ header .dents {
   width: 45%;
 }
 
-.sectTwo .pageTwoExt .pageTwo .resForm .badge {
+.sectTwo .pageTwoExt .pageTwo .resForm button {
   font-size: 16px;
   font-weight: normal;
-  padding: 20px 40px;
+  padding: 13px 30px;
+  margin: 40px 0;
 }
 
 .sectTwo .pageTwoExt .pageTwo .ourBlog {
@@ -16666,10 +16675,10 @@ header .dents {
   margin-top: 20px;
 }
 
-.sectTwo .pageTwoExt .pageTwo .badge {
+.sectTwo .pageTwoExt .pageTwo button {
   font-size: 16px;
   font-weight: normal;
-  padding: 20px 40px;
+  padding: 13px 30px;
 }
 
 .sectTwo .pageTwoExt .pageBottom {
