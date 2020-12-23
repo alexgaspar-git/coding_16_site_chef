@@ -15949,6 +15949,18 @@ header {
   overflow: hidden;
 }
 
+header .smolmen {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 100;
+  display: none;
+}
+
+header .smolmen a {
+  font-size: 12px;
+}
+
 header nav {
   padding-top: 30px;
   display: flex;
@@ -16058,6 +16070,9 @@ header .dents {
 @media screen and (max-width: 375px) {
   header {
     height: 30vh;
+  }
+  header .smolmen {
+    display: initial;
   }
   header nav {
     padding-top: 10px;
@@ -17185,10 +17200,10 @@ body .redir {
   bottom: 0;
   right: 0;
   background-color: #dadada;
-  padding: 10px 23px;
+  padding: 5px 10px;
   margin-right: 50px;
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 25px;
   border-radius: 50%;
   background-color: lightgray;
   opacity: 50%;

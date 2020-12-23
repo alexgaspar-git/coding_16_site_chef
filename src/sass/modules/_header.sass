@@ -3,6 +3,14 @@ header
     height: 85vh
     position: relative
     overflow: hidden
+    .smolmen
+        position: absolute
+        top: 5%
+        right: 5%
+        z-index: 100
+        display: none
+        a
+            font-size: 12px
     nav
         padding-top: 30px
         display: flex
@@ -81,6 +89,8 @@ header
 @media screen and (max-width: 375px)
     header
         height: 30vh
+        .smolmen
+            display: initial
         nav
             padding-top: 10px
             .navG
