@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
+    <div class="redir">
+        <a href="#heady"><i class="fas fa-arrow-up"></i></a>
+    </div>
     <header>
-        <nav>
+        <nav id="heady">
             <div class="navG">
-                <a href="">HOME</a>
-                <a href="">ABOUT US</a>
-                <a href="">MENU LIST</a>
-                <a href="">TEAM</a>
+                <a href="#header">HOME</a>
+                <a href="#aboutus">ABOUT US</a>
+                <a href="#menu">MENU LIST</a>
+                <a href="#team">TEAM</a>
             </div>
             <div class="navM">
                 <img src="./public/img/logo.png">
             </div>
             <div class="navD">
-                <a href="">RESERVATION</a>
-                <a href="">BLOG</a>
-                <a href="">TESTIMONIALS</a>
-                <a href="">CONTACT US</a>
+                <a href="#reserv">RESERVATION</a>
+                <a href="#blog">BLOG</a>
+                <a href="#testimonials">TESTIMONIALS</a>
+                <a href="#contactus">CONTACT US</a>
             </div>
         </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -78,7 +81,7 @@
                 <div class="decoMenuL">
                     <img src="./public/img/decoration_line.png">
                 </div>
-                <div class="menuList d-flex mt-4">
+                <div id="menu" class="menuList d-flex mt-4">
                     <div class="menuL">
                         <div class="icone d-flex flex-column text-center">
                             <i class="fas fa-mug-hot"></i>
@@ -205,7 +208,7 @@
                 </div>
             </div>
         </div>
-        <div class="meet">
+        <div class="meet" id="team">
             <span class="meetTxt"><span class="redTxt">MEET</span> Our Jeff</span>
             <img class="decoLine" src="./public/img/decoration_line.png">    
             <div class="jeff">
@@ -267,7 +270,7 @@
                 <div class="deco">
                     <img src="./public/img/decoration_line.png">
                 </div>
-                <div class="blogContainer">
+                <div class="blogContainer" id="blog">
                     <div class="leBlog">
                         <div class="imgDate">
                             <img src="./public/img/blog_img1.jpg" alt="">
@@ -303,7 +306,7 @@
                 </div>
             </div>
         </div>
-        <div class="cTesti">
+        <div class="cTesti" id="testimonials">
             <span class="meetTxt"><span class="redTxt">CLIENT</span> Testimonials</span>
             <img class="decoLine" src="./public/img/decoration_line.png">  
             <div class="managerContainer">
@@ -326,7 +329,7 @@
             </div>
         </div>
         <div class="ourContact">
-            <div class="pageTopTitle">
+            <div class="pageTopTitle" id="contactus">
                 <span><span class="redTxt">OUR</span> Contact</span>
             </div>
             <div class="deco">
@@ -357,7 +360,7 @@
             </div>
             <div class="trioContainer">
                 <div class="trio">
-                    <h3>ABOUT US</h3>
+                    <h3 id="aboutus">ABOUT US</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit officia in voluptatem quod, quam qui rem repudiandae sunt, odit ex totam ullam ratione corporis excepturi beatae quae distinctio minus?</p>
                     <div class="icones">
                         <a href=""><i class="fab fa-facebook-f"></i></a>

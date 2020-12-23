@@ -17177,4 +17177,23 @@ footer .trioContainerBg .dents {
 
 body {
   margin: 0;
+  position: relative;
+}
+
+body .redir {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #dadada;
+  padding: 10px 23px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  border-radius: 50%;
+  background-color: lightgray;
+  opacity: 50%;
+}
+
+body .redir a {
+  color: gray;
 }
